@@ -466,4 +466,23 @@ p{
     .nav-right a{
         margin-right: 7px;
     }
+
+}
+
+/* newsletter subscribe message styles */
+.subscribe-msg {
+    margin-top: 8px;
+    padding: 8px 10px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.subscribe-success {
+    background: #eaf7ea;
+    color: #0a6b3a;
+}
+
+.subscribe-error {
+    background: #fdecea;
+    color: #a52222;
 }
