@@ -21,11 +21,11 @@
             <a href="#">Brands</a>
             <a href="#">Contact</a>
         </ul>
-        <div class="search">
-            <i class="fa-solid fa-magnifying-glass">
-            <input type="search" style="background-color: white;" placeholder="Search Shop.co">
-            </i>
+        <div class="search" role="search">
+          <span class="search-icon" aria-hidden="true"><i class="fa-solid fa-magnifying-glass"></i></span>
+          <input id="site-search" name="q" type="search" placeholder="Search Shop.co" aria-label="Search Shop.co" style="background-color:white;" />
         </div>
+
         <div class="nav-right">
             <a><i class="fa-solid fa-user" aria-setsize="device-width"></i></a>
             <a><i class="fa-solid fa-heart"aria-setsize="device-width"></i></a>
@@ -357,4 +357,5 @@
 <script src="app.js"></script>
 
 </html>
+
 
